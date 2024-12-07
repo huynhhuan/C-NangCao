@@ -1,0 +1,47 @@
+# Global ignores for the entire project
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# ============================
+# Backend (ASP.NET Core)
+# ============================
+
+# Build output
+**/bin/
+**/obj/
+
+# NuGet packages and lock files
+**/packages/
+project.lock.json
+project.fragment.lock.json
+
+# IDE and user-specific files
+**/.vs/
+*.user
+*.suo
+
+# Environment and sensitive configs
+**/*.env
+**/appsettings.Development.json
+
+# ============================
+# Frontend (ASP.NET Framework)
+# ============================
+
+# Build output
+FE/bin/
+FE/obj/
+
+# NuGet packages
+FE/packages/
+
+# IDE and user-specific files
+FE/.vs/
+*.user
+*.suo
+
+# Temporary files
+FE/*.tmp
+FE/*.cache

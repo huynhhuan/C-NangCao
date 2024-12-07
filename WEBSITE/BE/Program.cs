@@ -3,9 +3,12 @@ using BE.Model;
 using Microsoft.EntityFrameworkCore;
 using BE.Repository;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using BE.Interface;
 >>>>>>> 974d098 (ngochuan update lần 1)
+=======
+>>>>>>> d23521803f7f06053b92c698bd41c98ddb7104b0
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,9 +26,12 @@ builder.Services.AddScoped<ThongkedoanhthuRepositoryADONET>();
 //Ngọc Huân
 builder.Services.AddScoped<SanphamH>();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 builder.Services.AddScoped<IChitiethoadonH, ChitiethoadonRepositoryH>();
 >>>>>>> 974d098 (ngochuan update lần 1)
+=======
+>>>>>>> d23521803f7f06053b92c698bd41c98ddb7104b0
 //Vĩ Khương
 builder.Services.AddScoped<IUserRepositoryK, UserRepositoryK>();
 //Bá Huân

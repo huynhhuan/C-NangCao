@@ -8,9 +8,12 @@ using static System.Net.WebRequestMethods;
 using Newtonsoft.Json;
 using System.Text.Json;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using System.Web;
 >>>>>>> 974d098 (ngochuan update lần 1)
+=======
+>>>>>>> d23521803f7f06053b92c698bd41c98ddb7104b0
 
 
 namespace FE.Controllers
@@ -62,6 +65,7 @@ namespace FE.Controllers
                         //return RedirectToAction("Information", "Account");
                         Session["UserSession"] = user;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
                         HttpCookie cookie = new HttpCookie("idUser", user.Taikhoan);
@@ -69,6 +73,8 @@ namespace FE.Controllers
                         Response.Cookies.Add(cookie);
 
 >>>>>>> 974d098 (ngochuan update lần 1)
+=======
+>>>>>>> d23521803f7f06053b92c698bd41c98ddb7104b0
                         return View("Information", user);
 
 

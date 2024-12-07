@@ -32,9 +32,12 @@ namespace BE.Repository
             Chitietsanpham = sp.Chitietsanphams.Select(ct => new
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 ct.IdChitietSp,
 >>>>>>> 974d098 (ngochuan update lần 1)
+=======
+>>>>>>> d23521803f7f06053b92c698bd41c98ddb7104b0
                 ct.HinhAnh,
                 ct.SoLuongTon,
                 ct.Gia,
